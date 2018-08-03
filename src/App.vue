@@ -38,4 +38,6 @@ $simple-line-font-path: "~simple-line-icons/fonts/";
 @import "~simple-line-icons/scss/simple-line-icons.scss";
 /* Import Flag Icons Set */
 @import "~flag-icon-css/css/flag-icon.min.css";
+@import "./assets/scss/custom-bootstrap.scss";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 </style>

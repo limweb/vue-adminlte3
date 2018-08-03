@@ -1,0 +1,63 @@
+.sidebar-dark-primary {
+  .nav-treeview {
+    .nav-item {
+      .nav-link {
+        &.router-link-exact-active {
+          color: #343a40;
+          background-color: rgba(255, 255, 255, 0.9);
+        }
+        &:hover {
+          color: #343a40;
+          background-color: rgba(255, 255, 255, 0.9);
+        }
+      }
+    }
+  }
+  .nav-sidebar {}
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+}
+.ptest {
+  font-weight: normal;
+  margin: 20px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.form-control{
+  // padding: 0.3125rem 0.625rem;
+  padding: 4px 8px;
+}
+.card-body{
+  padding: 0.9375rem;
+}
+.content-header h1 {
+  font-size: 1.2rem;
+}
+.card-title{
+  font-size: 14px;
+  font-weight: 400;
+}
+label {
+  margin-bottom: 0px;
+}
+
+
+/**/
+
+.vue-treeselect__single-value {
+  font-size: 0.875rem;
+}
+.vue-treeselect__control{
+  height: 0px;
+}
+.vue-treeselect__input{
+padding: 4px 8px;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: -5px;
+    margin-bottom: 3px;
+}
